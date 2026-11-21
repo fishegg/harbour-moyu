@@ -121,3 +121,6 @@ rm -rf %{buildroot}
 %config %{_sysconfdir}/sailjail/permissions/harbour-moyu.profile
 %dir %{_libdir}/qt5/qml/xyz/birdzhang/moyu
 %{_libdir}/qt5/qml/xyz/birdzhang/moyu/ime
+%dir %{_datadir}/maliit/plugins/com/jolla
+%{_datadir}/maliit/plugins/com/jolla/MoyuKeyboardRow.qml
+%{_datadir}/maliit/plugins/com/jolla/MoyuLanguageKey.qml
